@@ -1,5 +1,6 @@
 # web-dev-bootcamp
-Course by Dr. Angela. Technologies: 
+Course by Dr. Angela. 
+Technologies: 
  - HTML
  - CSS
  - JavaScript
