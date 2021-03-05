@@ -8,3 +8,8 @@ Technologies:
  - Node.JS
  - jQuery
  - EJS
+
+To see my HTML structure web page, access: 
+- https://taiprogrammer.github.io/web-dev-bootcamp/html/index.html
+- https://taiprogrammer.github.io/web-dev-bootcamp/html/tables.html
+- https://taiprogrammer.github.io/web-dev-bootcamp/html/subscribe.html
