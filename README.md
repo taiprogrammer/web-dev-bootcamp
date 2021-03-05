@@ -9,8 +9,11 @@ Technologies:
  - jQuery
  - EJS
 
-To see my HTML structure web page, access: 
-<a href="https://taiprogrammer.github.io/web-dev-bootcamp/html/index.html">Home</a>
+To see my HTML structure web page, access: <br>
+<a href="https://taiprogrammer.github.io/web-dev-bootcamp/html/index.html">Home</a><br>
+<a href="https://taiprogrammer.github.io/web-dev-bootcamp/html/tables.html">Career</a><br>
+<a href="https://taiprogrammer.github.io/web-dev-bootcamp/html/subscribe.html">Subscribe</a>
+<br> <h3>Or you can access directly</h3>
 - https://taiprogrammer.github.io/web-dev-bootcamp/html/index.html
 - https://taiprogrammer.github.io/web-dev-bootcamp/html/tables.html
 - https://taiprogrammer.github.io/web-dev-bootcamp/html/subscribe.html
