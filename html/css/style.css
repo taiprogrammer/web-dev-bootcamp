@@ -33,19 +33,18 @@ a:hover {
      border-bottom-style: dotted;
  }
 
- div.img-pinkfloyd {
-     margin: 0 auto;
+div.img-pinkfloyd {
      margin-top: 2%;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 50%;
-     height: 50%;
  }
  img {
      border-radius: 50px;
  }
 
  p.bio {
+     text-align: center;
+ }
+
+ p.copy {
+     color: #3a6351;
      text-align: center;
  }
