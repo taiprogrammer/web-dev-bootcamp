@@ -1,0 +1,11 @@
+body {
+    background-color: #e7e7de;
+}
+.bord {
+    width: 10%;
+    margin: 0 auto;
+    /* height: 50px; */
+    background-color: #cdcdcd;
+    border-width: 3px;
+    border-bottom-style: dotted;
+}
