@@ -11,6 +11,12 @@ a {
     text-decoration: none;
     color: #e48257;
 }
+
+a:hover {
+    text-decoration: none;
+    color: #3a6351;
+}
+
  ul.links {
      overflow: hidden;
      text-align: end;
@@ -38,4 +44,8 @@ a {
  }
  img {
      border-radius: 50px;
+ }
+
+ p.bio {
+     text-align: center;
  }
