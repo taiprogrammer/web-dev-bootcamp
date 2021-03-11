@@ -21,7 +21,7 @@ a:hover {
      overflow: hidden;
      text-align: end;
  }
- li {
+ li.yp {
     display: inline-block;
  }
 
@@ -47,4 +47,17 @@ div.img-pinkfloyd {
  p.copy {
      color: #3a6351;
      text-align: center;
+ }
+
+ h1.title {
+     text-align: center;
+ }
+
+ table.center {
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+p.p-center {
+    text-align: center;
  }
