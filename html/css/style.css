@@ -1,0 +1,41 @@
+body {
+    background-color: #f2edd7;
+}
+
+div.about {
+    margin: 0 auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #e48257;
+}
+ ul.links {
+     overflow: hidden;
+     text-align: end;
+ }
+ li {
+    display: inline-block;
+ }
+
+ div.sep {
+     margin: 0 auto;
+     height: 2px;
+     width: 30%;
+     border-color: #3a6351;
+     border-bottom-style: dotted;
+ }
+
+ div.img-pinkfloyd {
+     margin: 0 auto;
+     margin-top: 2%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     height: 50%;
+ }
+ img {
+     border-radius: 50px;
+ }
