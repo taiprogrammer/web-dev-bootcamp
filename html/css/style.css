@@ -38,7 +38,8 @@ div.img-pinkfloyd {
  }
  img {
      border-radius: 50px;
-     width: 50%;
+     width: 500px; /*default size*/
+     max-width: 100%;
  }
 
  p.bio {
