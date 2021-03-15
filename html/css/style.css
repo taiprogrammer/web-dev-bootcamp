@@ -63,3 +63,12 @@ div.img-pinkfloyd {
 p.p-center {
     text-align: center;
  }
+
+ form {
+     margin-top: 3%;
+     text-align: center;
+ }
+
+ .circular {
+     border-radius: 100%;
+ }
