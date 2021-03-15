@@ -40,6 +40,7 @@ div.img-pinkfloyd {
      border-radius: 50px;
      width: 500px; /*default size*/
      max-width: 100%;
+     cursor: pointer;
  }
 
  p.bio {
@@ -72,3 +73,4 @@ p.p-center {
  .circular {
      border-radius: 100%;
  }
+
