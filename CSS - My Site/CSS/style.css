@@ -1,0 +1,41 @@
+:root{
+    --color-one : #f8f5f1;
+    --color-two : #e9896a;
+    --color-three : #387c6d;
+    --color-four : #343f56;
+}
+body {
+    margin: 0;
+}
+div.top-container {
+    background-color: var(--color-one);
+    border: solid 10px;
+    height: 200px;
+    padding: 20px;
+    width: 200px;
+}
+
+div.middle-container {
+    background-color: red;
+    border: solid 20px;
+    height: 200px;
+    margin-left: 260px; /*200px div 1 + 20px * 2 padding div 1 + 10px * 2 border div 1*/
+    width: 200px;
+}
+
+div.bottom-container {
+    background-color: yellow;
+    border: solid 10px;
+    height: 200px;
+    margin-left: 500px; /*200px div 1 + 20px * 2 padding div 1 + 10px * 2 border div 1 + 
+    200px div 2 + 20px * 2 border div 2*/
+    width: 200px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/*p {
+    margin: 0;
+}*/
