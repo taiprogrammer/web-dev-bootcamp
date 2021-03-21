@@ -38,7 +38,7 @@ div.img-pinkfloyd {
  }
  img {
      border-radius: 50px;
-     width: 500px; /*default size*/
+     width: 100vmax; /*default size*/
      max-width: 100%;
      cursor: pointer;
  }
