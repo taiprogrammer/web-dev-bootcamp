@@ -1,0 +1,84 @@
+div.welcome img {
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+
+div.free-test {
+    left: 43%;
+    position: absolute;
+    top: 125vh;
+}
+
+div.free-test input{
+    background-color: var(--green-aqua-blue);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    height: 10vh;
+    text-align: center;
+    width: 20vw;
+}
+
+div.free-test input:hover {
+    background-color: var(--darker-blue);
+}
+
+div.find {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+div.find h2 {
+    color: var(--wine);
+    margin-left: 16vw;
+    margin-top: 10vh;
+}
+
+div.options {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+div.options a {
+    color: var(--green-aqua-blue);
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    margin-left: 5vw;
+    text-decoration: none;
+}
+
+div.options a:hover {
+    text-decoration: underline;
+}
+
+div.center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+div.courses {
+    align-items: center;
+    
+    display: flex;
+    justify-content: center;
+    left: 4%;
+    overflow: hidden;
+    position: relative;
+}
+
+div.courses img {
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    margin-left: 2vw;
+    margin-top: 5vh;
+}

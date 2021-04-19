@@ -1,0 +1,74 @@
+:root {
+    --darker-blue: #6D96A6;
+    --lighter-blue: #C1D4D9;
+    --green-aqua-blue: #147373;
+    --rose: #EAD3BE;
+    --wine: #400D01;
+    --search: #DEDDDD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*HEADER*/
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+section.container {
+    width: 90%;
+}
+
+section.header-content {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+div.options img {
+    display: none;
+}
+
+div.logo img {
+    height: 12vh;
+}
+
+div.search {
+    align-items: center;
+    background-color: var(--search);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+}
+
+div.search input {
+    background-color: var(--search);
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    height: 5vh;
+    margin-left: 3vw;
+    outline: none;
+    text-align: center;
+    width: 30vw;
+}
+
+div.registration a{
+    color: var(--darker-blue);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div.registration a:hover {
+    text-decoration: underline;
+}
