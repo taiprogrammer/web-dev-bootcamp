@@ -37,6 +37,10 @@ div.row {
     position: relative;
 }
 
+/* div.row img {
+    height: 8vh;
+} */
+
 div.search {
     align-items: center;
     background-color: var(--search);
