@@ -1,0 +1,17 @@
+@media screen and (min-width: 1366px) {
+    div.search img {
+        height: 3vh;
+    }
+
+    div.row img.logo {
+        height: 9vh;
+    }
+
+    div.back-side {
+        height: 7vh;
+    }
+
+    div.front-side {
+        height: 7vh;
+    }
+}
