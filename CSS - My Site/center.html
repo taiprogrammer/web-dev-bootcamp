@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS - My Site/CSS/center.css" />
+    <title>Centering</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      div.container {
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+      }
+
+      div.row {
+        display: flex;
+        flex-direction: row;
+      }
+
+      div.row div {
+        background-color: brown;
+        height: 90px;
+        margin: 2vh;
+        text-align: center;
+        width: 90px;
+      }
+
+      div.row div h2 {
+        color: whitesmoke;
+      }
+
+      div.row-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+
+      div.row-reverse div {
+        background-color: brown;
+        margin: 2vh;
+        height: 90px;
+        text-align: center;
+        width: 90px;
+      }
+
+      div.row-reverse div h2 {
+        color: whitesmoke;
+      }
+
+      div.column {
+        display: flex;
+        flex-direction: column;
+      }
+
+      div.column div {
+        background-color: brown;
+        margin-top: 2vh;
+        height: 90px;
+        text-align: center;
+        width: 90px;
+      }
+
+      div.column div h2 {
+        color: whitesmoke;
+      }
+
+      div.column-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+
+      div.column-reverse div {
+        background-color: brown;
+        margin-top: 2vh;
+        height: 90px;
+        text-align: center;
+        width: 90px;
+      }
+
+      div.column-reverse div h2 {
+        color: whitesmoke;
+      }
+
+      div.inherit {
+        display: flex;
+        flex-direction: inherit;
+      }
+
+      div.inherit div {
+        background-color: brown;
+        margin: 2vh;
+        height: 90px;
+        text-align: center;
+        width: 90px;
+      }
+
+      div.initial {
+        display: flex;
+        flex-direction: initial;
+      }
+
+      div.initial div {
+        background-color: brown;
+        margin: 2vh;
+        height: 90px;
+        text-align: center;
+        width: 90px;
+      }
+
+      div.unset {
+        display: flex;
+        flex-direction: unset;
+      }
+
+      div.unset div {
+        background-color: brown;
+        margin: 2vh;
+        height: 90px;
+        text-align: center;
+        width: 90px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--flex box-->
+    <div class="container">
+        <h1>row:</h1>
+    <div class="row">
+      <div><h2>1</h2></div>
+      <div><h2>2</h2></div>
+      <div><h2>3</h2></div>
+    </div>
+
+    <h1>row-reverse:</h1>
+    <div class="row-reverse">
+      <div><h2>1</h2></div>
+      <div><h2>2</h2></div>
+      <div><h2>3</h2></div>
+    </div>
+
+    <h1>column:</h1>
+    <div class="column">
+      <div><h2>1</h2></div>
+      <div><h2>2</h2></div>
+      <div><h2>3</h2></div>
+    </div>
+
+    <h1>column-reverse:</h1>
+    <div class="column-reverse">
+      <div><h2>1</h2></div>
+      <div><h2>2</h2></div>
+      <div><h2>3</h2></div>
+    </div>
+
+    <h1>inherit:</h1>
+    <div class="inherit">
+      <div><h2>1</h2></div>
+      <div><h2>2</h2></div>
+      <div><h2>3</h2></div>
+    </div>
+
+    <h1>initial:</h1>
+    <div class="initial">
+      <div><h2>1</h2></div>
+      <div><h2>2</h2></div>
+      <div><h2>3</h2></div>
+    </div>
+
+    <h1>unset:</h1>
+    <div class="unset">
+      <div><h2>1</h2></div>
+      <div><h2>2</h2></div>
+      <div><h2>3</h2></div>
+    </div>
+    </div>
+  </body>
+</html>

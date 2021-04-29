@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --darker-blue: #6D96A6;
+    --lighter-blue: #C1D4D9;
+    --aqua-green: #147373;
+    --rose: #EAD3BE;
+    --rose-shaddow: #B7A99C;
+    --violet-red: #400D01;
+    --search: #DEDDDD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+section.container {
+    margin-top: 2vh;
+    width: 95%;
+}
+
+div.row {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+div.search {
+    align-items: center;
+    background-color: var(--search);
+    border-radius: 15px;
+    display: flex;
+    margin-left: 10vw;
+    padding: 1.5vh;
+    width: 50%;
+}
+
+div.search input {
+    background-color: var(--search);
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    text-align: center;
+    width: 100%;
+}
+
+div.back-side {
+    background-color: var(--rose-shaddow);
+    border-radius: 10px;
+    height: 8vh;
+    position: absolute;
+    right: 0;
+    width: 10vw;
+}
+
+div.front-side {
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #EAD3BE 0%, rgba(234, 211, 190, 0.901042) 0.01%, 
+    rgba(234, 211, 190, 0.71) 0.02%, rgba(234, 211, 190, 0.901042) 99.99%);
+    bottom: 6.5vh;
+    display: flex;
+    height: 8vh;
+    justify-content: center;
+    position: absolute;
+    right: 0.5vw;
+    width: 10vw;
+}
+
+div.front-side a {
+    color: var(--darker-blue);
+    font-weight: 600;
+    text-decoration: none;
+}
