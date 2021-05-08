@@ -1,0 +1,28 @@
+main section.background-img {
+    margin-top: 2.5vh;
+    position: relative;
+}
+
+main section.background-img img{
+    height: auto;
+    width: 100%;
+}
+
+div.front-welcome {
+    background: linear-gradient(180deg, #147373 0%, 
+    rgba(234, 211, 190, 0.901042) 0.01%, 
+    rgba(20, 115, 115, 0.71) 0.02%, 
+    rgba(20, 115, 115, 0.901042) 99.99%);
+    bottom: 15.5%;
+    left: 49.8%;
+    right: 50%;
+    width: 15vw;
+}
+
+div.back-welcome {
+    background-color: #084949;
+    bottom: 15%;
+    left: 50%;
+    right: 50%;
+    width: 15vw;
+}
